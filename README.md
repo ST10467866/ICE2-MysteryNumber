@@ -2,9 +2,12 @@
 
 ## Group Information:
 
-**Group members:** Leah Naiker ST10467866
+**Group members:** 
+* Leah Naiker ST10467866
 
-**GitHub Repository URL:** 
+* Tshiamo Nkge ST10473572 
+                    
+**GitHub Repository URL:** https://github.com/ST10467866/ICE2-MysteryNumber.git
 
 ## Application Details
 
