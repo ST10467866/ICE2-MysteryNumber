@@ -41,8 +41,71 @@ The app provides immediate feedback on whether the user's guess is **too high**,
 * **Responsive UI:**
   The interface is styled with `StyleSheet` to ensure proper usability on mobile devices.
 
----
+## Pseudocode 
 
+0. Start
+1. Declarations
+   
+	num intSecretNum
+
+	num intGuess
+
+	num intGuessCount
+
+	string strPlayAgain
+
+2. output "Welcome to the mystery number challenge!" + "Guess the secret number (between 1 and 10)"
+   
+3. output "Enter your guess (-1 to exit) :"
+   
+4. input intGuess
+
+5. while strPlayAgain = "yes"
+   
+	intGuessCount = 0
+
+	intSecretNum = random (1,10) 
+
+6. while intGuess <> intSecretNum AND intGuess <> -1
+    
+	intGuessCount = intGuessCount + 1
+
+		if intGuess < intSecretNum then
+
+			output "Too low! Try again"
+   
+		else
+
+			intGuess > intSecretNum then
+   
+			output "Too high! Try again"
+   
+		end if
+
+		  output "Enter your next guess (-1 to exit)
+
+   end while
+
+7. if intGuess = -1 then
+    
+	  output "You chose to exit the game, Goodbye!"
+
+   end if
+
+8. if intGuessCount = intGuessCount + 1
+    
+   	output "Congratulations! You've guessed correctly"
+    
+  	output "Total guesses:" + intGuessCount
+
+   	output "Would you like to play again? (yes/no)"
+    
+   	input strPlayAgain
+
+9. output "Thanks for playing the mystery number challenge"
+
+10. Stop 
+		
 ## Screenshots
 
 
